@@ -26,7 +26,6 @@ import org.springframework.web.bind.annotation.RestController;
 @EntityScan({"org.chm.boot.jpa.entity","org.chm.boot.tx.entity", "org.chm.boot.cache.entity"}) //数据库里自动生成对应实体的表结构
 @MapperScan({"org.chm.boot.mybatis.mapper","org.chm.boot.mybatis.mapper2"})
 //@SpringBootApplication
-@SwaggerDefinition
 @EnableCaching
 @RequestMapping("/test")
 @ServletComponentScan(basePackages = {"org.chm.boot.servlet"})
